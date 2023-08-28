@@ -11,10 +11,8 @@
 }
 img {
     display: flex;
-    width: 100%;
-    
+    width: 100%;    
 }
-
 .main-container {
     background-color: #18181B;
     width: 100%;    
@@ -28,13 +26,10 @@ nav {
     align-items: center;
     justify-content: space-between;
     gap: 2rem;
-    display: flex;
-    
-    
+    display: flex;    
 }
 .nav-logo {
-    max-width: 100px;
-    
+    max-width: 100px;    
 }
 .nav-links{
     display: flex;
@@ -59,8 +54,7 @@ nav {
 .container{
     max-width: 1200px;
     margin: auto;
-    padding: 5rem 0rem;
-    
+    padding: 5rem 0rem;    
 }
 .blur {
     position: absolute;
@@ -94,32 +88,25 @@ header .image{
 header .image img{
     max-width: 500px;
     margin: auto;
-    border-radius: 40px;
-    
+    border-radius: 40px;    
 }
-.container-2{
-    
-    
+.container-2{    
     max-width: 1200px;
-    margin: auto;
-    
+    margin-left: 300px;    
 }
 .skills{
-    margin: 50px 0 50px;
-    
+    margin: 50px 0 50px;    
 }
 .container-2 input{
     max-width: 500px;
     display: flex;
-    flex-direction: column;
-    
+    flex-direction: column;    
 }
 .container-3 {
     max-width: 1200px;
     margin: auto;
     padding: 2rem 2rem;
-    display: flex;
-   
+    display: flex;   
 }
 .kizuna{
     margin: auto;
@@ -129,8 +116,7 @@ header .image img{
     max-width: 1200px;
     margin: auto;
     padding: 2rem 2rem;
-    display: flex;
-   
+    display: flex;   
 }
 .recto{
     margin: auto;
@@ -140,8 +126,7 @@ header .image img{
     max-width: 1200px;
     margin: auto;
     padding: 2rem 2rem;
-    display: flex;
-   
+    display: flex;   
 }
 .gl-taft{
     margin: auto;
@@ -151,29 +136,29 @@ header .image img{
     max-width: 1200px;
     margin: auto;
     padding: 2rem 2rem;
-    display: flex;
-   
+    display: flex;   
 }
 .valenza{
     margin: auto;
-    max-width: 700px;
-    
+    max-width: 700px;    
 }
-.experience{
-    
+.experience{    
     padding: 100px 350px 0px;
 }
 .content-1{
-    border: 2px solid black;
     padding-top: 50px;
     background-color: black;
-    border-radius: 20px;
+    border-radius: 20px 0 0 20px;
+}
+.content-2{
+    padding-top: 50px;
+    background-color: black;
+    border-radius: 0 20px 20px 0;
 }
 .contact{
     margin: auto;
     max-width: 1200px;
-    padding: 2rem;
-    
+    padding: 2rem;    
     gap: 2rem;
 }
 h5 img{        
@@ -187,4 +172,126 @@ h5 img{
 footer{
     text-align: center;
     background-color: black;
+}
+.autocad{
+    background-color: #fff;
+    height: 15px;
+    border-radius: 10px;
+    width: 500px;    
+}
+.autocad-range{
+    background-color: blue;
+    height: 15px;
+    width: 15px;
+    border-radius: 15px;
+    margin-left: 95%;
+    margin-bottom: 5px;
+}
+.revit-range{
+    background-color: blue;
+    height: 15px;
+    width: 15px;
+    border-radius: 15px;
+    margin-left: 60%;
+    margin-bottom: 5px;
+}
+.sketchup-range{
+    background-color: blue;
+    height: 15px;
+    width: 15px;
+    border-radius: 15px;
+    margin-left: 70%;
+    margin-bottom: 5px;
+}
+.planswift-range{
+    background-color: blue;
+    height: 15px;
+    width: 15px;
+    border-radius: 15px;
+    margin-left: 95%;
+    margin-bottom: 5px;
+}
+h4 span {
+    color:darkslategray
+}
+.date{
+    color:darkorange
+}
+.company{
+    color: blue;
+}
+h4{
+    margin: 20px; 
+    padding: 10px;
+}
+@media (max-width: 1199px) {
+    .container{
+        padding-bottom: 20px;
+    }
+    .container-2 {
+        margin-left: 20%;        
+    }
+    .experience{        
+        padding-top: 50px;
+        padding-left: 30px;
+    }
+    .container-3 {
+        
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .container-4 {
+        display: block;
+    }
+    .container-5 {
+        display: block;
+        display: flex;
+        flex-direction: column-reverse;
+    }    
+    .container-6 {
+       display: block;
+    }
+    .content-1, .content-2{
+        border-radius: 0 0 20px 20px;
+        width: 700px;
+        margin: auto;
+    }
+}
+
+
+@media screen and (max-width: 763px) and (min-width: 440px){
+    header{
+        display: flex;
+        flex-direction: column;
+    }
+    .main-container{
+        background-attachment: fixed;
+        background-color: #18181B;        
+        width: 745px;
+    }
+    .content-1, .content-2{
+        border-radius: 0 0 20px 20px;
+        width: 100%;
+        margin: auto;
+    }
+
+}
+@media (max-width: 439px){
+    .main-container{
+        background-size: cover;
+        width: 100%;
+        background-color: #18181B;
+        border: 10px solid red;
+        width: 730px;
+    }
+    header{
+        display: flex;
+        flex-direction: column;
+    }
+    .content-1, .content-2{
+        border-radius: 0 0 20px 20px;
+        width: 100%;
+        margin: auto;
+    }
+  
 }
