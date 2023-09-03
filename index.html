@@ -6,6 +6,7 @@
     <title>Profile | Joshua Blasco</title>
     <link rel="stylesheet" href="style.css">
     <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     
 </head>
 <body>
@@ -62,13 +63,13 @@
             <h1>Work Experience</h1>
         </div>
         <div class="container-3">
-            <div class="content-1">
+            <div class="content-1" data-aos="fade-right">
                 <h4><span>Project:</span> Kizuna Heights (On-going Construction)</h4>
                 <h4><span>Location:</span> 2661 Taft Avenue, Malate, Manila</h4>
                 <h4 class="date">April 2023 - Present</h4>
                 <h4 class="company">MGS Construction Inc.</h4>
             </div>
-            <div id="carouselExampleAutoplaying" class="kizuna carousel slide" data-bs-ride="carousel">
+            <div id="carouselExampleAutoplaying" class="kizuna carousel slide" data-bs-ride="carousel" data-aos="fade-left">
                 <div class="carousel-inner">
                   <div class="carousel-item active">
                     <img src="./img/kizuna-3.jpg" class="d-block w-100" >
@@ -92,7 +93,7 @@
         </div>
         <div class="container-4">
             
-            <div id="carouselExampleAutoplaying-1" class="recto carousel slide" data-bs-ride="carousel">
+            <div id="carouselExampleAutoplaying-1" class="recto carousel slide" data-bs-ride="carousel" data-aos="fade-right">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <img src="./img/recto.png" class="d-block w-100" alt="...">
@@ -116,7 +117,7 @@
                     <span class="visually-hidden">Next</span>
                 </button>
             </div>
-            <div class="content-2">
+            <div class="content-2" data-aos="fade-left">
                 <h4><span>Project:</span> Vista Recto</h4>
                 <h4><span>Location:</span> 1896 CM Recto Avenue, Quiapo, Manila</h4>
                 <h4 class="date">October 2021 - April 2023</h4>
@@ -124,13 +125,13 @@
             </div>
         </div>
         <div class="container-5">
-            <div class="content-1">
+            <div class="content-1" data-aos="fade-right">
                 <h4><span>Project:</span> Vista GL Taft</h4>
                 <h4><span>Location:</span> 1344 Taft Avenue, Malate, Manila</h4>
                 <h4 class="date">March 2020 - September 2021</h4>
                 <h4 class="company">MGS Construction Inc.</h4>
             </div>
-        <div id="carouselExampleAutoplaying-2" class="gl-taft carousel slide" data-bs-ride="carousel">
+        <div id="carouselExampleAutoplaying-2" class="gl-taft carousel slide" data-bs-ride="carousel" data-aos="fade-left">
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img src="./img/gl-taft-1.jpg" class="d-block w-100" alt="...">
@@ -154,7 +155,7 @@
         </div>
         <div class="container-6">
             
-            <div id="carouselExampleAutoplaying-3" class="valenza carousel slide" data-bs-ride="carousel">
+            <div id="carouselExampleAutoplaying-3" class="valenza carousel slide" data-bs-ride="carousel" data-aos="fade-right">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <img src="./img/vm-3.jpg" class="d-block w-100" alt="...">
@@ -175,14 +176,15 @@
                     <span class="visually-hidden">Next</span>
                 </button>
             </div>
-            <div class="content-2">
+            <div class="content-2" data-aos="fade-left">
                 <h4><span>Project:</span> Valenza Mansions</h4>
                 <h4><span>Location:</span> Nuvali, Solenad, Sta. Rosa, Laguna</h4>
                 <h4 class="date">September 2017 - March 2020</h4>
                 <h4 class="company">MGS Construction Inc.</h4>
             </div>
         </div>
-        <div class="contact" id="contacts">
+        <div class="contact" id="contacts"  data-aos="fade-up"
+        data-aos-duration="3000">
             <h1>Contact</h1>
             <div>
                 <h5>Email: joshuablasco04@gmail.com</h5>
@@ -197,6 +199,11 @@
             All rights reserved. 2023
         </footer>
     </div>
+    
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
     <script src="/js/bootstrap.min.js"></script>
 </body>
 </html>
