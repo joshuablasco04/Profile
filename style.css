@@ -40,6 +40,10 @@ nav {
     list-style: none;
     
 }
+button a{
+    color: #fff;
+    text-decoration: none;
+}
 .navbar-nav{
     margin: auto;
 }
